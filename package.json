@@ -1,0 +1,11 @@
+{
+  "name": "pi-autoresearch-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:workspace": "node prepare.js",
+    "run": "node run.js",
+    "reset:workspace": "node prepare.js --reset-workspace"
+  }
+}

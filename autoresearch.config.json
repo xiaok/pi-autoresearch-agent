@@ -1,0 +1,12 @@
+{
+  "workspaceDir": "./workspace",
+  "runsDir": "./.autoresearch/runs",
+  "bestResultFile": "./.autoresearch/best.json",
+  "scoreFile": "result.json",
+  "objective": "minimize",
+  "commitPrefix": "experiment:",
+  "command": [
+    "node",
+    "evaluate.js"
+  ]
+}
