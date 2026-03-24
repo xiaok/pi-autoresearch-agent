@@ -1,3 +1,3 @@
 export function solve(items) {
-  return [...items].sort((a, b) => a - b);
+  return [...items].sort((a, b) => b - a);
 }
